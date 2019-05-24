@@ -24,6 +24,7 @@ export default {
 <style lang="stylus" scoped>
 $boardColor = rgb(128, 64, 0)
 $lineWidth = 2px
+$obliqueLineWidth = 1px
 $lineColor = black
 $space = 5%
 $size = 15%
@@ -69,7 +70,7 @@ $size = 15%
         content ''
         position absolute
         width 141.4%
-        height $lineWidth
+        height $obliqueLineWidth
         background $lineColor
         top 50%
         left 50%
